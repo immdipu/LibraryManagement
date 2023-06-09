@@ -1,33 +1,36 @@
+@model Book
 <h2>Add New Book</h2>
 
-<form style="display: flex; flex-direction:column;gap:15px; margin-Top:20px; max-width:26rem; width:100%;">
+<form style="display: flex; flex-direction:column;gap:15px; margin-Top:20px; max-width:26rem; width:100%;" action="/books/addbook" method="post">
   <div class="form-group">
-    <label for="Name">Book Title</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter book title">
+    <label for="Name" asp-for="Title"></label>
     
+    <input asp-for="Title" class="form-control"  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter book title">
+    <span asp-validation-for="Title" class="text-danger"></span>
   </div>
   <div class="form-group">
-    <label for="Name">Book Author Name</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter book Author Name">
+    <label for="Name" asp-for="Author"></label>
+    <input asp-for="Author" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter book title">
   </div>
   <div class="form-group">
-    <label for="Name">Book Publisher</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter book publisher">
+    <label for="Name" asp-for="Publisher"></label>
+    <input asp-for="Publisher" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter book title">
   </div>
   <div class="form-group">
-    <label for="Name">Book Price</label>
-    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter book price">
+    <label for="Name" asp-for="Price"></label>
+    <input asp-for="Price" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter book title">
   </div>
   <div class="form-group">
-    <label for="Name">Book Language</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter book language">
+    <label for="Name" asp-for="Edition"></label>
+    <input asp-for="Edition" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter book title">
   </div>
   <div class="form-group">
-    <label for="Name">Book Edition</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter book edition">
+    <label for="Name" asp-for="Language"></label>
+    <input asp-for="Language" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter book title">
   </div>
-    <label for="Name">Book Published Date</label>
-    <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter book Author Name">
+  <div class="form-group">
+    <label for="Name" asp-for="PublishedDate"></label>
+    <input asp-for="PublishedDate" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter book title">
   </div>
   <div style=" width:10rem;margin-left:7rem;padding-bottom:10px;">
  <button type="submit" class="btn btn-primary">ADD</button>
