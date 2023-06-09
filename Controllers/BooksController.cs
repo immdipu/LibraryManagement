@@ -10,4 +10,8 @@ books.Add(new Book{Id=1, Title="chemistry",Author="stephen", Edition="III", Lang
         return View(books);
     }
     
+    public IActionResult Addbook(){
+        return View();
+    }
+
 }

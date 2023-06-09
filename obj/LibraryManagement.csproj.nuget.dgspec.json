@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dipuc\\OneDrive\\Desktop\\Dotnet\\vedas2076\\Basics\\LMS\\LibraryManagement\\LibraryManagement.csproj": {}
+    "c:\\Users\\dipuc\\OneDrive\\Desktop\\Dotnet\\vedas2076\\Basics\\LMS\\LibraryManagement\\LibraryManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dipuc\\OneDrive\\Desktop\\Dotnet\\vedas2076\\Basics\\LMS\\LibraryManagement\\LibraryManagement.csproj": {
+    "c:\\Users\\dipuc\\OneDrive\\Desktop\\Dotnet\\vedas2076\\Basics\\LMS\\LibraryManagement\\LibraryManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dipuc\\OneDrive\\Desktop\\Dotnet\\vedas2076\\Basics\\LMS\\LibraryManagement\\LibraryManagement.csproj",
+        "projectUniqueName": "c:\\Users\\dipuc\\OneDrive\\Desktop\\Dotnet\\vedas2076\\Basics\\LMS\\LibraryManagement\\LibraryManagement.csproj",
         "projectName": "LibraryManagement",
-        "projectPath": "C:\\Users\\dipuc\\OneDrive\\Desktop\\Dotnet\\vedas2076\\Basics\\LMS\\LibraryManagement\\LibraryManagement.csproj",
+        "projectPath": "c:\\Users\\dipuc\\OneDrive\\Desktop\\Dotnet\\vedas2076\\Basics\\LMS\\LibraryManagement\\LibraryManagement.csproj",
         "packagesPath": "C:\\Users\\dipuc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dipuc\\OneDrive\\Desktop\\Dotnet\\vedas2076\\Basics\\LMS\\LibraryManagement\\obj\\",
+        "outputPath": "c:\\Users\\dipuc\\OneDrive\\Desktop\\Dotnet\\vedas2076\\Basics\\LMS\\LibraryManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dipuc\\AppData\\Roaming\\NuGet\\NuGet.Config"
